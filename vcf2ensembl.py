@@ -58,7 +58,7 @@ def main( args ):
 			header += line
 			continue
 		fields = line.strip().split( "\t" )
-		print( fields )
+		#print( fields )
 		chrom = str( fields[0] )
 		pos = int( fields[1] )
 		ref = fields[3].upper()
